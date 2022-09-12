@@ -1,0 +1,57 @@
+    .medication {
+            margin-top: 120px;
+            margin-left: 50px;
+        &__title {
+            margin-bottom: 40px;
+        h2 {
+            width: 341px;
+            font-weight: 500;
+            font-size: 40px;
+            line-height: 52px;
+            color: $btn;
+        }
+        }
+        &__text {
+        p {
+            color: $grayText;
+            max-width: 646px;
+            font-size: 24px;
+            line-height: 33.6px;
+            margin-bottom: 30px;
+        }
+        }
+    }
+
+@media (max-width: 540px) {
+    .medication {
+            margin-left: 30px;
+        &__title {
+        h2 {
+            width: 341px;
+            font-size: 35px;
+        }
+        }
+        &__text {
+        p {
+            max-width: 360px;
+        }
+        }
+    }
+}
+
+@media (max-width: 440px) {
+    .medication {
+            margin-left: 10px;
+        &__title {
+        h2 {
+            width: 320px;
+            font-size: 33px;
+        }
+        }
+        &__text {
+        p {
+            max-width: 320px;
+        }
+        }
+    }
+}

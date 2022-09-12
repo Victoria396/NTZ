@@ -1,0 +1,436 @@
+.specialist {
+        padding-left: 50px;
+        h2 {
+            margin-top: 133px;
+            font-weight: 500;
+            font-size: 40px;
+            line-height: 52px;
+            color: $darkText;
+            width: 1013px;
+        }
+        &__top {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 40px;
+            padding-right: 50px;
+        .specialist__arrows {
+            display: flex;
+            svg {
+                margin-right: 43px;
+            }
+        }
+        p {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 18px;
+            color: $btn;
+        }
+        }
+        &__slider {
+            margin-top: -8px;
+        .specialist__overflow {
+            overflow: hidden;
+            width: 1390px;
+            .bigSlider__line {
+                display: flex;
+                justify-content: space-between;
+            }
+            .specialist__slide1 {
+                height: 575px;
+                background: linear-gradient(0deg, rgba(65, 124, 209, 0.3) 0%, rgba(9, 46, 98, 0.3) 100%), #1E5AAF;
+                max-width: 879px;
+                width: 100%;
+                border-radius: 4px;
+                transition: all ease 1s;
+                &:hover {
+                    cursor: pointer;
+                    // background: linear-gradient(0deg, rgba(65, 124, 209, 0.8) 0%, rgba(9, 46, 98, 0.8) 100%), linear-gradient(0deg, rgba(65, 124, 209, 0.3) 0%, rgba(9, 46, 98, 0.3) 100%), #1E5AAF;
+                    background-color:#0c4089;
+                }
+            }
+            .specialist__upper {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            .specialist__title {
+                padding-left: 110px;
+                padding-right: 514px;
+                margin-top: 61px;
+                font-weight: 400;
+                font-size: 24px;
+                color: $white;
+                line-height: 31.2px;
+                text-transform: uppercase;
+                width: 162px;
+                height: 121px;
+                background: url(../img/portret.png) top right 6px/89px 89px no-repeat
+            }
+            }
+            .specialist__subtitle {
+                color: $specialistP;
+                font-size: 14px;
+                line-height: 18.2px;
+                width: 446px;
+                padding-left: 110px;
+                margin-top: -40px;
+            }
+            div {
+            p {
+                color: $specialistP2;
+                font-size: 30px;
+                line-height: 42px;
+                width: 630px;
+                padding-left: 110px;
+                margin-top: 76px;
+            }
+            div {
+                margin-top: 44px;
+                width: 1803px;
+                a {
+                font-size: 18px;
+                line-height: 18px;
+                font-weight: 500;
+                color: $white;
+                padding-left: 110px;
+                padding-bottom: 64px;
+                padding-right: 517px;
+                background: url(../img/arrow-card.png) top 8px right/7px 13px no-repeat;
+            }
+            }
+            .specialist__slide2 {
+                margin-right: 0;
+                margin-left: auto;
+                margin-top: -620px;
+            }
+            
+            }
+        }
+    }
+    
+    
+@media (max-width: 1920px) {
+.specialist {
+        h2 {
+        }
+        &__top {
+        .specialist__arrows {
+            svg {
+            }
+        }
+        p {
+        }
+        }
+        &__slider {
+        .specialist__overflow {
+                max-width: 1870px;
+                width: 100%;
+            .bigSlider__line {
+                
+            }
+            .specialist__slide1 {
+            }
+            .specialist__upper {
+            }
+            .specialist__upper img {
+            }
+            .specialist__title {
+            }
+            }
+            .specialist__subtitle {
+            }
+            div {
+                    
+            p {
+            }
+            div {
+                width: 2180px;
+                a {
+            }
+            }
+            .specialist__slide2 {
+            }
+            
+            }
+        }
+    }
+}
+
+@media (max-width: 1600px) {
+.specialist {
+        h2 {
+        }
+        &__top {
+        .specialist__arrows {
+            svg {
+            }
+        }
+        p {
+        }
+        }
+        &__slider {
+        .specialist__overflow {
+                max-width: 1550px;
+                width: 100%;
+            .bigSlider__line {
+                width: 1880px;
+            }
+            .specialist__slide1 {
+            }
+            .specialist__upper {
+            }
+            .specialist__upper img {
+            }
+            .specialist__title {
+            }
+            }
+            .specialist__subtitle {
+            }
+            div {
+                    
+            p {
+            }
+            div {
+                width: 1803px;
+                a {
+            }
+            }
+            .specialist__slide2 {
+            }
+            
+            }
+        }
+    }
+}
+
+@media (max-width: 1440px) {
+.specialist {
+        h2 {
+            font-size: 40px;
+            max-width: 888px;
+            margin-top: 133px;
+        }
+        &__slider {
+        .specialist__overflow {
+                max-width: 1390px;
+                width: 100%;
+            }
+            div {   
+            p {
+            }
+            div {
+                width: 1803px;
+            }            
+            }
+        }
+    }
+}
+
+@media (max-width: 1065px) {
+.specialist {
+        h2 {
+            font-size: 33px;
+            max-width: 710px;
+            margin-top: 80px;
+        }
+        &__top {
+        .specialist__arrows {
+            svg {
+            }
+        }
+        p {
+        }
+        }
+        &__slider {
+        .specialist__overflow {
+                max-width: 1390px;
+                width: 100%;
+            .specialist__line {
+                width: 1435px;
+            }
+            .specialist__slide1 {
+                max-width: 700px;
+            }
+            .specialist__upper {
+            }
+            .specialist__upper img {
+            }
+            .specialist__title {
+                background: url(../img/portret.png) top right 153px/89px 89px no-repeat;
+            }
+            }
+            .specialist__subtitle {
+                width: 400px;
+            }
+            div {
+                    
+            p {
+                font-size: 26px;
+                width: 500px;
+            }
+            div {
+                width: 1803px;
+                a {
+                    background: url(../img/arrow-card.png) top 3px right 498px/7px 13px no-repeat
+            }
+            }
+            .specialist__slide2 {
+            }
+            
+            }
+        }
+    }
+}
+
+@media (max-width: 775px) {
+.specialist {
+        h2 {
+            font-size: 25px;
+            line-height: 30px;
+            max-width: 538px;
+        }
+        &__top {
+                padding-right: 180px;
+        .specialist__arrows {
+            svg {
+            }
+        }
+        p {
+        }
+        }
+        &__slider {
+        .specialist__overflow {
+                max-width: 1390px;
+                width: 100%;
+            .bigSlider__line {
+                
+            }
+            .specialist__slide1 {
+                max-width: 550px;
+            }
+            .specialist__upper {
+            }
+            .specialist__upper img {
+            }
+            .specialist__title {
+                padding-left: 50px;
+                background: url(../img/portret.png) top right 225px/89px 89px no-repeat;
+            }
+            }
+            .specialist__subtitle {
+                padding-left: 50px;
+            }
+            div {
+                    
+            p {
+                padding-left: 50px;
+                margin-top: 50px;
+                width: 400px;
+            }
+            div {
+                width: 1803px;
+                a {
+                    padding-left: 50px;
+                }
+            }
+            .specialist__slide2 {
+            }
+            
+            }
+        }
+    }
+}
+
+@media (max-width: 600px) {
+
+    .specialist {
+        h2 {
+            font-size: 24px;
+            line-height: 26px;
+            max-width: 300px;
+        }
+        &__top {
+                padding-right: 180px;
+        }
+        &__slider {
+        .specialist__overflow {
+            .specialist__slide1 {
+                max-width: 380px;
+            }
+            .specialist__title {
+                padding-left: 50px;
+                background: url(../img/portret.png) top right 372px/89px 89px no-repeat
+            }
+            }
+            .specialist__subtitle {
+                padding-left: 50px;
+                margin-top: 0;
+                width: 265px;
+            }
+            div {
+                    
+            p {
+                width: 284px;
+                font-size: 19px;
+                line-height: 26px;
+            }
+            div {
+                a {
+                    font-size: 15px;
+                }
+            }
+            }
+        }
+    }
+}
+
+@media (max-width: 440px) {
+.specialist {
+        h2 {
+        }
+        &__top {
+        .specialist__arrows {
+            svg {
+            }
+        }
+        p {
+        }
+        }
+        &__slider {
+        .specialist__overflow {
+            .bigSlider__line {
+                
+            }
+            .specialist__slide1 {
+                max-width: 300px;
+                width: 100%;
+            }
+            .specialist__upper {
+            }
+            .specialist__upper img {
+            }
+            .specialist__title {
+                background: url(../img/portret.png) top right 462px/89px 89px no-repeat;
+            }
+            }
+            .specialist__subtitle {
+                width: 230px;
+            }
+            div {
+                    
+            p {
+                width: 244px;
+                font-size: 18px;
+                line-height: 21px;
+            }
+            div {
+                a {
+            }
+            }
+            .specialist__slide2 {
+            }
+            
+            }
+        }
+    }
+}

@@ -1,0 +1,89 @@
+    .submenu {
+        margin-top: 50px;
+        padding: 0 50px;
+        display: grid; 
+        grid-template-columns: 1fr 1fr 1fr; 
+        grid-template-rows: 1fr 1fr; 
+        gap: 0px 45px; 
+        grid-template-areas: 
+            ". . ."
+            ". . ."; 
+        &__item {
+            display: flex;
+            justify-content: space-between;
+            border-top: 1px solid $border;
+        p {
+            font-size: 18px;
+            line-height: 18px;
+            padding: 23px 0 27px 0;
+            color: $darkText;
+            transition: all ease .2s;
+            &:hover {color: $btn;}
+            &:active {color: $btn;}
+            &:focus {color: $btn;}
+        }
+        svg {
+            margin-top: 26px;
+            padding-right: 13px;
+        }
+        }
+    }
+
+@media (max-width: 1300px) {
+    .submenu {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 1240px) {
+    .submenu {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 1140px) {
+    .submenu {
+        margin-top: -80px;
+    }
+}
+
+@media (max-width: 900px) {
+    .submenu {
+        margin-top: -150px;
+    }
+}
+
+@media (max-width: 775px) {
+    .submenu {
+        margin-top: -230px;
+    }
+}
+
+@media (max-width: 540px){
+    .submenu {
+        margin-top: -300px;
+        display: grid; 
+        grid-template-columns: 1fr 1fr; 
+        grid-template-rows: 1fr 1fr 1fr; 
+        gap: 2px 45px; 
+        grid-template-areas: 
+            ". ."
+            ". ."
+            ". ."; 
+    }
+}
+
+@media (max-width: 440px) {
+    .submenu {
+        margin-top: -350px;
+        display: grid; 
+        grid-template-columns: 1fr; 
+        grid-template-rows: 1fr 1fr 1fr 1fr; 
+        gap: 2px 45px; 
+        grid-template-areas: 
+            "."
+            "."
+            "."
+            "."; 
+    }
+}
