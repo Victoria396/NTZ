@@ -27,21 +27,25 @@
         }
         }
         &__slider {
-            margin-top: -8px;
         .specialist__overflow {
             overflow: hidden;
             width: 1390px;
-            .bigSlider__line {
+            .specialist__line {
+                margin-top: -10px;
                 display: flex;
                 justify-content: space-between;
+                max-width: 1758px;
+                position: relative;
+                left: 0;
+                transition: all ease .9s;
             }
             .specialist__slide1 {
+                margin-right: 44px;
                 height: 575px;
                 background: linear-gradient(0deg, rgba(65, 124, 209, 0.3) 0%, rgba(9, 46, 98, 0.3) 100%), #1E5AAF;
                 max-width: 879px;
                 width: 100%;
                 border-radius: 4px;
-                transition: all ease 1s;
                 &:hover {
                     cursor: pointer;
                     // background: linear-gradient(0deg, rgba(65, 124, 209, 0.8) 0%, rgba(9, 46, 98, 0.8) 100%), linear-gradient(0deg, rgba(65, 124, 209, 0.3) 0%, rgba(9, 46, 98, 0.3) 100%), #1E5AAF;
@@ -56,7 +60,7 @@
             .specialist__title {
                 padding-left: 110px;
                 padding-right: 514px;
-                margin-top: 61px;
+                margin-top: 20px;
                 font-weight: 400;
                 font-size: 24px;
                 color: $white;
@@ -101,7 +105,7 @@
             .specialist__slide2 {
                 margin-right: 0;
                 margin-left: auto;
-                margin-top: -620px;
+                margin-top: 44px;
             }
             
             }
@@ -111,93 +115,76 @@
     
 @media (max-width: 1920px) {
 .specialist {
-        h2 {
-        }
-        &__top {
-        .specialist__arrows {
-            svg {
-            }
-        }
-        p {
-        }
-        }
         &__slider {
         .specialist__overflow {
                 max-width: 1870px;
                 width: 100%;
-            .bigSlider__line {
-                
-            }
             .specialist__slide1 {
-            }
-            .specialist__upper {
-            }
-            .specialist__upper img {
+                max-width: 1109px;
+                height: 630px;
             }
             .specialist__title {
+                font-size: 37px;
+                line-height: 47px;
+                padding-right: 780px;
+                background: url(../img/portret.png) top right 6px/121px 121px no-repeat
             }
             }
             .specialist__subtitle {
+                    font-size: 23px;
+                    line-height: 28px;
+                    width: 690px;
+                    margin-top: -12px;
             }
-            div {
-                    
+            div { 
             p {
+                font-size: 36px;
+                line-height: 42px;
+                width: 956px;
+                margin-top: 55px;
             }
             div {
                 width: 2180px;
                 a {
+                    padding-right: 773px;
+                    background: url(../img/arrow-card.png) top 8px right/11px 18px no-repeat;
             }
             }
-            .specialist__slide2 {
-            }
-            
             }
         }
     }
 }
 
-@media (max-width: 1600px) {
+@media (max-width: 1700px) {
 .specialist {
-        h2 {
-        }
-        &__top {
-        .specialist__arrows {
-            svg {
-            }
-        }
-        p {
-        }
-        }
         &__slider {
         .specialist__overflow {
-                max-width: 1550px;
-                width: 100%;
-            .bigSlider__line {
-                width: 1880px;
-            }
             .specialist__slide1 {
-            }
-            .specialist__upper {
-            }
-            .specialist__upper img {
+                max-width: 930px;
+                height: 630px;
             }
             .specialist__title {
+                padding-right: 422px;
             }
             }
             .specialist__subtitle {
+                    font-size: 21px;
+                    line-height: 25px;
+                    width: 453px;
             }
-            div {
-                    
+            div { 
             p {
+                font-size: 34px;
+                line-height: 37px;
+                width: 603px;
+                margin-top: 47px;
             }
             div {
-                width: 1803px;
                 a {
+                    padding-right: 32px;
+                    background: url(../img/arrow-card.png) top right/11px 18px no-repeat;
             }
             }
-            .specialist__slide2 {
-            }
-            
             }
         }
     }
@@ -215,12 +202,79 @@
                 max-width: 1390px;
                 width: 100%;
             }
-            div {   
-            p {
-            }
+            div {
             div {
                 width: 1803px;
             }            
+            }
+        }
+    }
+}
+
+@media (max-width: 1361px) {
+.specialist {
+        &__slider {
+        .specialist__overflow {
+            .specialist__slide1 {
+                max-width: 835px;
+            }
+            .specialist__title {
+                padding-right: 422px;
+            }
+            }
+            .specialist__subtitle {
+                    font-size: 21px;
+                    line-height: 25px;
+                    width: 453px;
+            }
+            div { 
+            p {
+                font-size: 34px;
+                line-height: 37px;
+                width: 603px;
+                margin-top: 47px;
+            }
+            div {
+                a {
+                    padding-right: 32px;
+                    background: url(../img/arrow-card.png) top right/11px 18px no-repeat;
+            }
+            }
+            }
+        }
+    }
+}
+
+@media (max-width: 1210px) {
+.specialist {
+        &__slider {
+        .specialist__overflow {
+            .specialist__line {
+                max-width: 1210px;
+            }
+            .specialist__slide1 {
+                max-width: 630px;
+                height: 750px;
+            }
+            .specialist__title {
+                font-size: 28px;
+                line-height: 49px;
+                padding-right: 266px;
+            }
+            }
+            .specialist__subtitle {
+                font-size: 19px;
+                line-height: 25px;
+                width: 306px;
+                margin-top: 10px;
+            }
+            div { 
+            p {
+                font-size: 31px;
+                line-height: 35px;
+                width: 485px;
+                margin-top: 82px;
+            }
             }
         }
     }
@@ -233,29 +287,22 @@
             max-width: 710px;
             margin-top: 80px;
         }
-        &__top {
-        .specialist__arrows {
-            svg {
-            }
-        }
-        p {
-        }
-        }
         &__slider {
         .specialist__overflow {
                 max-width: 1390px;
                 width: 100%;
             .specialist__line {
-                width: 1435px;
+                width: 640px;
             }
             .specialist__slide1 {
                 max-width: 700px;
             }
             .specialist__upper {
-            }
-            .specialist__upper img {
+                max-width: 1803px;
+                width: 100%;
             }
             .specialist__title {
+                padding-right: 530px;
                 background: url(../img/portret.png) top right 153px/89px 89px no-repeat;
             }
             }
@@ -263,7 +310,6 @@
                 width: 400px;
             }
             div {
-                    
             p {
                 font-size: 26px;
                 width: 500px;
@@ -274,13 +320,81 @@
                     background: url(../img/arrow-card.png) top 3px right 498px/7px 13px no-repeat
             }
             }
-            .specialist__slide2 {
-            }
-            
             }
         }
     }
 }
+
+@media (max-width: 1025px) {
+.specialist {
+        &__slider {
+        .specialist__overflow {
+            .specialist__slide1 {
+                max-width: 580px;
+                height: 750px;
+            }
+            .specialist__title {
+                padding-right: 300px;
+            }
+            }
+            .specialist__subtitle {
+                font-size: 14px;
+                line-height: 17px;
+                width: 300px;
+            }
+            div { 
+            p {
+                font-size: 24px;
+                line-height: 33px;
+                width: 330px;
+                margin-top: 72px;
+            }
+            div {
+                a {padding-right: 520px;}
+            }
+            }
+        }
+    }
+}
+
+@media (max-width: 800px) {
+.specialist {
+        &__slider {
+        .specialist__overflow {
+            .specialist__slide1 {
+                max-width: 400px;
+                height: 750px;
+            }
+            .specialist__title {
+                padding-right: 300px;
+                padding-left: 41px;
+            }
+            }
+            .specialist__subtitle {
+                padding-left: 41px;
+                font-size: 14px;
+                line-height: 17px;
+                width: 300px;
+            }
+            div { 
+            p {
+                padding-left: 41px;
+                font-size: 24px;
+                line-height: 33px;
+                width: 330px;
+                margin-top: 72px;
+            }
+            div {
+                a {
+                    padding-right: 520px;
+                    padding-left: 41px;
+                }
+            }
+            }
+        }
+    }
+}
+
 
 @media (max-width: 775px) {
 .specialist {
@@ -291,29 +405,18 @@
         }
         &__top {
                 padding-right: 180px;
-        .specialist__arrows {
-            svg {
-            }
-        }
-        p {
-        }
         }
         &__slider {
         .specialist__overflow {
                 max-width: 1390px;
                 width: 100%;
-            .bigSlider__line {
-                
-            }
             .specialist__slide1 {
-                max-width: 550px;
-            }
-            .specialist__upper {
-            }
-            .specialist__upper img {
+                max-width:460px;
+                height: 600px;
             }
             .specialist__title {
                 padding-left: 50px;
+                padding-right: 380px;
                 background: url(../img/portret.png) top right 225px/89px 89px no-repeat;
             }
             }
@@ -321,11 +424,10 @@
                 padding-left: 50px;
             }
             div {
-                    
             p {
-                padding-left: 50px;
-                margin-top: 50px;
-                width: 400px;
+                font-size: 20px;
+                line-height: 29px;
+                width: 330px;
             }
             div {
                 width: 1803px;
@@ -333,16 +435,48 @@
                     padding-left: 50px;
                 }
             }
-            .specialist__slide2 {
             }
-            
+        }
+    }
+}
+
+@media (max-width: 690px) {
+.specialist {
+        &__slider {
+        .specialist__overflow {
+            .specialist__slide1 {
+                max-width: 375px;
+            }
+            .specialist__title {
+                padding-left: 50px;
+                padding-right: 380px;
+                background: url(../img/portret.png) top right 225px/89px 89px no-repeat;
+            }
+            }
+            .specialist__subtitle {
+                padding-left: 50px;
+                width: 243px;
+                font-size: 13px;
+                line-height: 13px;
+            }
+            div {
+            p {
+                font-size: 18px;
+                line-height: 29px;
+                width: 252px;
+                margin-top: -10px;
+            }
+            div {
+                a {
+                    font-size: 15px;
+                }
+            }
             }
         }
     }
 }
 
 @media (max-width: 600px) {
-
     .specialist {
         h2 {
             font-size: 24px;
@@ -355,29 +489,10 @@
         &__slider {
         .specialist__overflow {
             .specialist__slide1 {
-                max-width: 380px;
+                max-width: 320px;
             }
             .specialist__title {
-                padding-left: 50px;
-                background: url(../img/portret.png) top right 372px/89px 89px no-repeat
-            }
-            }
-            .specialist__subtitle {
-                padding-left: 50px;
-                margin-top: 0;
-                width: 265px;
-            }
-            div {
-                    
-            p {
-                width: 284px;
-                font-size: 19px;
-                line-height: 26px;
-            }
-            div {
-                a {
-                    font-size: 15px;
-                }
+                padding-right: 340px;
             }
             }
         }
@@ -386,50 +501,29 @@
 
 @media (max-width: 440px) {
 .specialist {
-        h2 {
-        }
-        &__top {
-        .specialist__arrows {
-            svg {
-            }
-        }
-        p {
-        }
-        }
         &__slider {
         .specialist__overflow {
-            .bigSlider__line {
-                
-            }
             .specialist__slide1 {
-                max-width: 300px;
+                padding-right: 57px;
+                max-width: 235px;
                 width: 100%;
-            }
-            .specialist__upper {
-            }
-            .specialist__upper img {
+                height: 492px;
             }
             .specialist__title {
-                background: url(../img/portret.png) top right 462px/89px 89px no-repeat;
+                margin-top: -8px;
+                width: 264px;
+                background: url(../img/portret.png) top right 220px/89px 89px no-repeat;
             }
             }
             .specialist__subtitle {
                 width: 230px;
             }
             div {
-                    
             p {
-                width: 244px;
+                width: 238px;
                 font-size: 18px;
-                line-height: 21px;
+                line-height: 19px;
             }
-            div {
-                a {
-            }
-            }
-            .specialist__slide2 {
-            }
-            
             }
         }
     }

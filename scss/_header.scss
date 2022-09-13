@@ -1,3 +1,27 @@
+    .header-active {
+        background-color: $whiteTabs;
+        .header__logo path {
+            fill: $btn;
+            stroke: $btn !important;
+        }
+        .header__menu .header__item a {
+            color: $darkText;
+            
+        }
+        .header__menu .header__item .svg-active {
+            transform: rotateX(180deg);
+        }
+        path {
+                stroke: $grayText;
+            }
+        .header__btns li .header__btn1 {
+            color: $btnBorder;
+        }
+        .header__btns li .header__btn2 {
+            color: $menuWhite;
+            background-color: #0F57BE;
+        }
+    }
     header {
         background-image: url(../img/header-bkg.jpg);
         background-repeat: no-repeat;
@@ -5,13 +29,13 @@
         max-width: 1440px;
         max-height: 548px;
         height: 548px;
-        padding: 0 50px;
         color: $white;
         .header {
             display: flex;
             justify-content: space-between;
             font-size: 18px;
             line-height: 18px;
+            padding: 0 50px;
         &__logo {
             padding-top: 30px;
             svg {
@@ -35,6 +59,7 @@
                 &:hover {color: $btn;}
                 &:active {color: $btn;}
                 &:focus {color: $btn;}
+            
             svg {
                 margin-left: 5px;
             }
@@ -79,6 +104,8 @@
         .header__content {
             position: relative;
             top: 23%;
+            padding: 0 50px;
+            z-index: 10;
             .header__title {
             h1 {
                 font-weight: 500;
@@ -109,6 +136,13 @@
             display: none;
         }
         }
+
+header .header__menu .header__item .header__item-active {
+    color: $darkText;
+    &:hover {color: $btnBorder;}
+                &:active {color: $btn;}
+                &:focus {color: $btn;}
+}
 
 @media (max-width: 1920px) {
     header {
