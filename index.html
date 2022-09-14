@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="header _anim-items">
+            <div class="header__logo">
+                <a href="index.html">
+                    <svg width="145" height="40" viewBox="0 0 145 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M51.752 10.84H57.296L62.792 20.512V10.84H67.088V28H62.336L56.072 17.224V28H51.752V10.84ZM70.3317 27.448L77.6278 14.608H71.2677V10.84H84.6118V11.368L77.4118 24.208H84.2517V28H70.3317V27.448ZM91.3953 14.632H86.9553V10.84H100.779V14.632H96.3393V28H91.3953V14.632ZM102.091 19.528H108.811V22.768H102.091V19.528ZM119.731 24.712H111.379V22.864L118.531 10.84H124.459V21.328H126.667V24.712H124.459V28H119.731V24.712ZM119.851 21.328V14.536L116.011 21.328H119.851ZM136.352 28.288C135.264 28.288 134.28 28.176 133.4 27.952C132.52 27.728 131.768 27.4 131.144 26.968C130.52 26.536 130.04 26 129.704 25.36C129.368 24.72 129.2 23.984 129.2 23.152C129.2 22.16 129.464 21.304 129.992 20.584C130.52 19.864 131.296 19.32 132.32 18.952C131.568 18.616 130.976 18.16 130.544 17.584C130.128 16.992 129.92 16.264 129.92 15.4C129.92 14.632 130.088 13.952 130.424 13.36C130.776 12.768 131.248 12.264 131.84 11.848C132.432 11.448 133.12 11.144 133.904 10.936C134.688 10.712 135.52 10.6 136.4 10.6C137.312 10.6 138.16 10.704 138.944 10.912C139.744 11.12 140.432 11.424 141.008 11.824C141.584 12.24 142.04 12.744 142.376 13.336C142.712 13.928 142.88 14.608 142.88 15.376C142.88 16.256 142.656 16.984 142.208 17.56C141.776 18.136 141.192 18.592 140.456 18.928C141.48 19.28 142.248 19.808 142.76 20.512C143.272 21.216 143.528 22.056 143.528 23.032C143.528 23.864 143.352 24.608 143 25.264C142.664 25.904 142.184 26.448 141.56 26.896C140.936 27.344 140.184 27.688 139.304 27.928C138.424 28.168 137.44 28.288 136.352 28.288ZM136.376 24.832C137.064 24.832 137.624 24.64 138.056 24.256C138.488 23.872 138.704 23.336 138.704 22.648C138.704 21.96 138.488 21.424 138.056 21.04C137.64 20.656 137.088 20.464 136.4 20.464C135.728 20.464 135.168 20.656 134.72 21.04C134.272 21.408 134.048 21.944 134.048 22.648C134.048 23.336 134.264 23.872 134.696 24.256C135.144 24.64 135.704 24.832 136.376 24.832ZM136.424 17.68C136.984 17.68 137.456 17.512 137.84 17.176C138.24 16.84 138.44 16.376 138.44 15.784C138.44 15.208 138.24 14.752 137.84 14.416C137.44 14.08 136.96 13.912 136.4 13.912C135.84 13.912 135.36 14.08 134.96 14.416C134.576 14.752 134.384 15.208 134.384 15.784C134.384 16.376 134.584 16.84 134.984 17.176C135.384 17.512 135.864 17.68 136.424 17.68Z"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M36 20C36 28.8366 28.8366 36 20 36C11.1634 36 4 28.8366 4 20C4 11.1634 11.1634 4 20 4C28.8366 4 36 11.1634 36 20ZM40 20C40 31.0457 31.0457 40 20 40C8.9543 40 0 31.0457 0 20C0 8.9543 8.9543 0 20 0C31.0457 0 40 8.9543 40 20ZM27 20C27 23.866 23.866 27 20 27C16.134 27 13 23.866 13 20C13 16.134 16.134 13 20 13C23.866 13 27 16.134 27 20ZM31 20C31 26.0751 26.0751 31 20 31C13.9249 31 9 26.0751 9 20C9 13.9249 13.9249 9 20 9C26.0751 9 31 13.9249 31 20Z"/>
+                    </svg>
+                </a>
+                
+            </div>
+            <div class="header__menu">
+                <ul class="header__list">
+                    <li class="header__item">
+                        <a class="header__item-tab" data-tab="#tab_1" href="#">Врачу
+                            <svg width="14" height="9" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M13 1L7 7L1 0.999999" stroke="#FDFDFD" stroke-opacity="0.75" stroke-width="2"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="header__item" data-tab="#tab_2">
+                        <a class="header__item-tab" data-tab="#tab_2" href="#">Пациенту
+                            <svg class="svg-down" width="14" height="9" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M13 1L7 7L1 0.999999" stroke="#FDFDFD" stroke-opacity="0.75" stroke-width="2"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="header__item" data-tab="#tab_3">
+                        <a class="header__item-tab" data-tab="#tab_3" href="#">О препарате
+                            <svg class="svg-down" width="14" height="9" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M13 1L7 7L1 0.999999" stroke="#FDFDFD" stroke-opacity="0.75" stroke-width="2"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#">Журнал</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#">Контакты</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#">
+                            <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M17.3333 17.4998L13.595 13.7548L17.3333 17.4998ZM15.6667 8.74984C15.6667 10.6285 14.9204 12.4301 13.592 13.7585C12.2636 15.0869 10.462 15.8332 8.58333 15.8332C6.70472 15.8332 4.90304 15.0869 3.57466 13.7585C2.24628 12.4301 1.5 10.6285 1.5 8.74984C1.5 6.87122 2.24628 5.06955 3.57466 3.74116C4.90304 2.41278 6.70472 1.6665 8.58333 1.6665C10.462 1.6665 12.2636 2.41278 13.592 3.74116C14.9204 5.06955 15.6667 6.87122 15.6667 8.74984V8.74984Z" stroke="#FDFDFD" stroke-opacity="0.75" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </a>
+                        
+                    </li>
+                </ul>
+            </div>
+            <div class="header__btns">
+                <ul>
+                    <li>
+                        <button class="header__btn1">Проверить оригинальность</button>
+                    </li>
+                    <li>
+                        <button class="header__btn2">Купить</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="navbar__wrp">
+                <div class="navbar">
+                    <div class="container nav-container">
+                        <input class="checkbox" type="checkbox" name="" id="" />
+                        <div class="hamburger-lines">
+                            <span class="line line1"></span>
+                            <span class="line line2"></span>
+                            <span class="line line3"></span>
+                        </div>  
+                        <div class="menu-items">
+                            <ul>
+                                <li><a href="#">Врачу</a>
+                                </li>
+                                <li><a href="#">Пациенту</a>
+                                </li>
+                                <li><a href="#">О препарате</a>
+                                </li>
+                                <li><a href="#">Журнал</a></li>
+                                <li><a href="#">Контакты</a></li>
+                            </ul>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div id="tab_1" class="header__tabs">
+                <div class="header__tabs-wrp">
+                    <ul class="header__tabs-list">
+                        <li class="header__tabs-item">
+                            <a href="#">Материалы для изучения</a>
+                        </li>
+                        <li class="header__tabs-item">
+                            <a href="#">Мнения специалистов</a>
+                        </li>
+                        <li class="header__tabs-item">
+                            <a href="#">Обучение</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header__tabs-wrp">
+                    <ul class="header__tabs-list">
+                        <li class="header__tabs-item">
+                            <a href="#">Эффективность и безопасность</a>
+                        </li>
+                        <li class="header__tabs-item">
+                            <a href="#">Информированное согласие</a>
+                        </li>
+                        <li class="header__tabs-item">
+                            <a href="#">Исследования и публикации</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header__tabs-wrp">
+                    <ul class="header__tabs-list">
+                        <li class="header__tabs-item">
+                            <a href="#">Вопрос/Ответ</a>
+                        </li>
+                        <li class="header__tabs-item">
+                            <a href="#">Дистрибьюторы</a>
+                        </li>
+                    </ul>
+                </div>
+        </div>
+        <div id="tab_2" class="header__tabs">
+            <div class="header__tabs-wrp">
+                <ul class="header__tabs-list">
+                    <li class="header__tabs-item">
+                        <a href="#">Эффективность и безопасность</a>
+                    </li>
+                    <li class="header__tabs-item">
+                        <a href="#">Мнения специалистов</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="header__tabs-wrp">
+                <ul class="header__tabs-list">
+                    <li class="header__tabs-item">
+                        <a href="#">Просто о сложном</a>
+                    </li>
+                    <li class="header__tabs-item">
+                        <a href="#">Вопрос/Ответ</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="header__tabs-wrp">
+                <ul class="header__tabs-list">
+                    <li class="header__tabs-item">
+                        <a href="#">Клиники</a>
+                    </li>
+                    <li class="header__tabs-item">
+                        <a href="#">Аптеки</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="tab_3" class="header__tabs">
+            <div class="header__tabs-wrp">
+                <ul class="header__tabs-list">
+                    <li class="header__tabs-item">
+                        <a href="#">История</a>
+                    </li>
+                    <li class="header__tabs-item">
+                        <a href="#">Механизм действия</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="header__tabs-wrp">
+                <ul class="header__tabs-list">
+                    <li class="header__tabs-item">
+                        <a href="#">Состав препарата</a>
+                    </li>
+                    <li class="header__tabs-item">
+                        <a href="#">Регистрационное удостоверение</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="header__tabs-wrp">
+                <ul class="header__tabs-list">
+                    <li class="header__tabs-item">
+                        <a href="#">Инструкция</a>
+                    </li>
+                    <li class="header__tabs-item">
+                        <a href="#">Технология производства</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="header__content">
+            <div class="header__title">
+                <h1 class="header__text">Путь к богатству и могуществу</h1>
+            </div>
+            <div class="header__link">
+                <a href="#">О препарате</a>
+                <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 1L6 6L1 11" stroke="white" stroke-width="2"/>
+                </svg>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="submenu">
+            <div class="submenu__item">
+                <a href="#">
+                    <p>История</p>
+                </a>
+                <svg width="9" height="14" viewBox="0 0 9 14"  fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 1L7 7L1 13" stroke="#1E5AAF" stroke-width="2"/>
+                </svg>
+            </div>
+            <div class="submenu__item">
+                <a href="#">
+                    <p>Технология производства</p>
+                </a>
+                <svg width="9" height="14" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 1L7 7L1 13" stroke="#1E5AAF" stroke-width="2"/>
+                </svg>
+            </div>
+            <div class="submenu__item">
+                <a href="#">
+                    <p>Инструкция</p>
+                </a>
+                <svg width="9" height="14" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 1L7 7L1 13" stroke="#1E5AAF" stroke-width="2"/>
+                </svg>
+            </div>
+            <div class="submenu__item">
+                <a href="#">
+                    <p>Состав препарата</p>
+                </a>
+                <svg width="9" height="14" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 1L7 7L1 13" stroke="#1E5AAF" stroke-width="2"/>
+                </svg>
+            </div>
+            <div class="submenu__item">
+                <a href="#">
+                    <p>Механизм действия</p>
+                </a>
+                <svg width="9" height="14" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 1L7 7L1 13" stroke="#1E5AAF" stroke-width="2"/>
+                </svg>
+            </div>
+            <div class="submenu__item">
+                <a href="#">
+                    <p>Рег. удостоверение</p>
+                </a>
+                <svg width="9" height="14" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 1L7 7L1 13" stroke="#1E5AAF" stroke-width="2"/>
+                </svg>
+            </div>
+        </section>
+        <section class="medication">
+            <div class="medication__title">
+                <h2>Препарат NZT-48</h2>
+            </div>
+            <div class="medication__text">
+                <p>Действует на клеточном уровне, улучшая метаболизм клеток и восстанавливая их нормальные функции.</p>
+                <p>Благодаря этому достигается широчайший спектр медицинских показаний и становится возможным применение в самых разных областях медицины.</p>
+            </div>
+        </section>
+        <section class="card">
+            <div class="card__wrp">
+                <div class="card__content">
+                    <div class="card__gradient-start">
+                        <div class="card__arrows">
+                            <a href="#">
+                                <h3>Эффективность</h3>
+                                <p>Доказана многочисленными клиническими и лабораторными исследованиями</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card__content">
+                    <div class="card__arrows">
+                        <a href="#">
+                            <h3>Безопасность</h3>
+                            <p>Не содержит гормонов, ферментов, витаминов и других биогенных стимуляторов</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="card__content">
+                    <div class="card__arrows">
+                        <a href="#">
+                            <h3>Высокие технологии</h3>
+                            <p>При производстве используются самые передовые технологии отбора, хранения и очистки</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="card__content">
+                    <div class="card__arrows">
+                        <a href="#">
+                            <h3>Уникальный состав</h3>
+                            <p>Сбалансированный состав биомолекул, так как соотношение компонентов создано природой, характерно для здоровой ткани и не просто стопроцентно усваивается, а встраивается в собственный метаболизм пациента</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bigSlider">
+            <div class="bigSlider__arrows">
+                <svg class="bigSlider__prev" width="14" height="24" viewBox="0 0 14 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M13 23L2 12L13 1" stroke="#2864B9" stroke-width="2"/>
+                </svg>
+                <svg class="bigSlider__next" width="14" height="24" viewBox="0 0 14 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 1L12 12L1 23" stroke="#2864B9" stroke-width="2"/>
+                </svg>
+            </div>
+            <div class="bigSlider__overflow">
+                <div class="bigSlider__line">
+                    <div class="bigSlider__slide1">
+                        <div class="bigSlider__img">
+                            <img src="img/bigSlider1.jpg" alt="slide1">
+                        </div>
+                        <div class="bigSlider__content">
+                            <h3>Что это за таблетка?! Я был предельно собран. Я не курил уже 6 часов, я не ел.</h3>
+                            <p>5 апреля</p>
+                            <a href="#">
+                                О NZT-48
+                                <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 1L6 6L1 11" stroke="white" stroke-width="2"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="bigSlider__slide2">
+                        <div class="bigSlider__img">
+                            <img src="img/bigSlider2.jpg" alt="slide2">
+                        </div>
+                        <div class="bigSlider__content">
+                            <h3>Я был таким воздержанным и чистым… Что это? Лекарство для тех, кто заботиться о банальной чистоте? Я не был обкурен, я не был пьян, я был чистым!</h3>
+                            <p>17 апреля</p>
+                            <a href="#">
+                                О побочных 
+                                <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 1L6 6L1 11" stroke="white" stroke-width="2"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="specialist">
+            <h2>Мы изучаем и принимаем во внимание<br>все мнения ведущих специалистов отрасли</h2>
+            <div class="specialist__top">
+                <div class="specialist__arrows">
+                    <svg class="specialist__prev" width="14" height="24" viewBox="0 0 14 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M13 23L2 12L13 1" stroke="#2864B9" stroke-width="2"/>
+                    </svg>
+                    <svg class="specialist__next" width="14" height="24" viewBox="0 0 14 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 1L12 12L1 23" stroke="#2864B9" stroke-width="2"/>
+                    </svg>
+                </div>
+                <p>Мнения специалистов</p>
+            </div>
+            <div class="specialist__slider">
+                <div class="specialist__overflow">
+                    <div class="specialist__line">
+                        <div class="specialist__slide1">
+                            <div class="specialist__upper">
+                                <h2 class="specialist__title">Эдди морро</h2>
+                            </div>
+                            <p class="specialist__subtitle">Сенатор, заслуженный деятель науки РФ, профессор, доктор медицинских наук, руководитель отдела патоморфологии ФГБНУ «НИИАГиР им. Д.О. Отта», г.Санкт-Петербург</p>
+                            <div>
+                                <p>Правовое государство фактически интегрирует культ личности. Социализм, на первый взгляд, заставляет бесцветный культ личности.</p>
+                            </div>
+                            <div>
+                                <a href="#">
+                                    Смотреть видео
+                                </a>
+                            </div>
+                        </div>
+                        <div class="specialist__slide1 specialist__slide2">
+                            <div class="specialist__upper">
+                                <h2 class="specialist__title">Эдди морро</h2>
+                            </div>
+                            <p class="specialist__subtitle">Сенатор, заслуженный деятель науки РФ, профессор, доктор медицинских наук, руководитель отдела патоморфологии ФГБНУ «НИИАГиР им. Д.О. Отта», г.Санкт-Петербург</p>
+                            <div>
+                                <p>Правовое государство фактически интегрирует культ личности. Социализм, на первый взгляд, заставляет бесцветный культ личности.</p>
+                            </div>
+                            <div>
+                                <a href="#">
+                                    Смотреть видео
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+            <h2>Путь к богатству и могуществу</h2>
+            <div>
+                <div>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <p>© «NZT-48», 2022</p>
+                        </li>
+                        <li class="footer__item">
+                            <p>Согласие на обработку персональных данных</p>
+                        </li>
+                        <li class="footer__item">
+                            <p class="footer__item-last">Политика конфиденциальности</p>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <p class="footer__text">Тестовое задание от Country</p>
+                </div>
+            </div>
+    </footer>
+    <script src="js/jquery.js"></script>
+    <script src="https://use.fontawesome.com/d73e3bec45.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,106 @@
+    .card {
+        &__wrp {
+            margin-top: 120px;
+            max-width: 1384px;
+            padding: 0 50px;
+            display: grid; 
+            grid-template-columns: 1fr 1fr 1fr 1fr; 
+            grid-template-rows: 1fr; 
+            gap: 0px 46px; 
+            grid-template-areas: 
+                ". . . ."; 
+        .card__content {
+                background: linear-gradient(0deg, rgba(65, 124, 209, 0.3) 0%, rgba(9, 46, 98, 0.3) 100%), #1E5AAF;
+                box-shadow: 0px 0px 10px rgba(6, 31, 67, 0.3);
+                height: 345px;
+                border-radius: 5px;
+                padding: 35px;
+                transition: all ease 1s;
+                &:hover {
+                    cursor: pointer;
+                    // background: linear-gradient(0deg, rgba(65, 124, 209, 0.8) 0%, rgba(9, 46, 98, 0.8) 100%), linear-gradient(0deg, rgba(65, 124, 209, 0.3) 0%, rgba(9, 46, 98, 0.3) 100%), #1E5AAF;
+                    background-color:#0c4089;
+                }
+            .card__arrows {
+                background: url(../img/arrow-card.png) bottom 0 right/7.5px 15px no-repeat;
+                height: 337px;
+            }
+            a {
+            h3 {
+                color: $white;
+                line-height: 28.8px;
+                font-size: 24px;
+                margin-bottom: 15px;
+                width: 175px;
+            }
+            &:hover {}
+            &:active {}
+            &:focus {}
+            p {
+                color: $menuWhite;
+                font-size: 14px;
+                line-height: 19.6px;
+                opacity: .5;
+                height: 250px;
+            }
+            }
+        }
+        }
+    }
+
+@media (max-width: 1920px) {
+        .card {
+        &__wrp {
+            max-width: 1700px;
+        }
+    }
+}
+
+@media (max-width: 1240px) {
+        .card {
+        &__wrp {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            margin-right: 100px;
+            gap: 50px 50px;
+            grid-template-areas:
+                ". ."
+                ". .";
+        }
+    }
+}
+
+@media (max-width: 775px) {
+        .card {
+        &__wrp {
+            margin-right: 0;
+        }
+    }
+}
+
+@media (max-width: 600px) {
+        .card {
+        &__wrp {
+            max-width: 400px;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+            gap: 20px 20px;
+            grid-template-areas:
+                "."
+                "."
+                "."
+                ".";
+        }
+    }
+
+    .card__wrp .card__content .card__arrows {
+    background: url(../img/arrow-card.png) bottom 50px right/7.5px 15px no-repeat;
+}
+
+.card__wrp .card__content {
+    height: 270px;
+}
+}
+
