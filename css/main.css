@@ -58,6 +58,11 @@ a, p, h1, h2, h3, button, ul {
   font-weight: 400;
   font-style: normal;
 }
+header .header__menu .header__item .header__item-active svg {
+  -webkit-transform: rotateX(180deg);
+          transform: rotateX(180deg);
+}
+
 .header-active {
   background-color: #F5F5F5;
 }
@@ -67,10 +72,6 @@ a, p, h1, h2, h3, button, ul {
 }
 .header-active .header__menu .header__item a {
   color: #252627;
-}
-.header-active .header__menu .header__item .svg-active {
-  -webkit-transform: rotateX(180deg);
-          transform: rotateX(180deg);
 }
 .header-active path {
   stroke: #797A84;

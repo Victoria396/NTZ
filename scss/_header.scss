@@ -1,3 +1,6 @@
+header .header__menu .header__item .header__item-active svg {
+        transform: rotateX(180deg)
+}
     .header-active {
         background-color: $whiteTabs;
         .header__logo path {
@@ -7,9 +10,6 @@
         .header__menu .header__item a {
             color: $darkText;
             
-        }
-        .header__menu .header__item .svg-active {
-            transform: rotateX(180deg);
         }
         path {
                 stroke: $grayText;
